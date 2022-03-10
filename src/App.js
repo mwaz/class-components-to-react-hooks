@@ -1,5 +1,5 @@
 import "./App.css";
-import CounterHooks from "./components/hooks";
+import CounterHooks from "./components/custom-hook";
 
 function App() {
   return (

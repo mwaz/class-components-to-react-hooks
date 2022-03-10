@@ -1,14 +1,9 @@
-import { useState } from 'react'
+import { useCounter } from './useCounter'
 
 export default function CounterHooks() {
-  const [value, setValue] = useState(0);
+const [ value, isEven, handleIncrement, handleDecrement ]= useCounter();
 
-  const handleIncrement = () => {
-    setValue(value + 1)
-  }
-  const handleDecrement = () => {
-    setValue(value - 1)
-  }
+
   return (
     <div className="counter">
       <h1>COUNTER</h1>
@@ -17,6 +12,8 @@ export default function CounterHooks() {
         <button data-testid="decrement" onClick={handleDecrement}>Decrement</button>
       </div>
       <p data-testid="count">{value}</p>
+      <div className={isEven ? "even" : "odd"}>{ isEven ? "Even" : "Odd"}</div>
     </div>
   );
 }
+

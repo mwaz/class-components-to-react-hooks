@@ -19,4 +19,4 @@ jobs:
           name: Hooks component tests
           command: npm test
       - store_artifacts:
-          path: ~/Hooks-Class-Components
+          path: ~/class-components-to-react-hooks
