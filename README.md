@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Class Components to React Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![CircleCI](https://circleci.com/gh/mwaz/class-components-to-react-hooks.svg?style=svg)](https://circleci.com/gh/mwaz/class-components-to-react-hooks)
 
-## Available Scripts
+<p align="center"><img src="https://avatars3.githubusercontent.com/u/59034516"></p>
 
-In the project directory, you can run:
+React application to show usage of Hooks and Class Based components.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+run the following command on your terminal to clone the repository:
 
-### `npm test`
+```bash
+git clone git@github.com:mwaz/class-components-to-react-hooks.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd class-components-to-react-hooks
+```
 
-### `npm run build`
+## Install the dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install the dependencies using the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Running tests
 
-### `npm run eject`
+```bash
+npm test
+```
+## Details
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This repo is built following a tutorial published on CircleCI blog under the CircleCI Guest Writer Program.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   Blog post: [From Class Components to React Hooks][blog]
+-   Author's GitHub profile: [Waweru Mwaura][author]
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### About CircleCI Guest Writer Program
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Reviewers: [Ron Powell][ron], [Stanley Ndagi][stan], [Amos Omondi][amos]
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[blog]: https://circleci.com/blog/from-class-components-to-react-hooks/
+[author]: https://github.com/mwaz
+[ron]: https://github.com/ronpowelljr
+[stan]: https://github.com/NdagiStanley
+[amos]: https://github.com/amos-o
